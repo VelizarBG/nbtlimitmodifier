@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nbtlimitmodifier",
+  "version": "${version}",
+
+  "name": "Nbt Limit Modifier",
+  "description": "Makes the item nbt size limit configurable",
+  "authors": [
+    "VelizarBG"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "velizarbg.nbtlimitmodifier.NbtLimitModifier"
+    ]
+  },
+
+  "mixins": [
+    "nbtlimitmodifier.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  }
+}
